@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # sensor-fault-detection
-=======
+
 # Sensor-Fault-Detection
 
 ### Problem Statement
@@ -71,7 +71,7 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 export AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION>
 
-export MONGODB_URL="mongodb+srv://<username>:<password>@ineuron-ai-projects.7eh1w4s.mongodb.net/?retryWrites=true&w=majority"
+export MONGODB_URL="mongodb+srv://sensor:<password>@sensor.ohhpue9.mongodb.net/?retryWrites=true&w=majority"
 
 ```
 
@@ -127,5 +127,4 @@ export MONGO_DB_URL=mongodb+srv://avnish:XglZZ9OkjjUw74pZ@ineuron-ai-projects.7e
 then run 
 ```
 python main.py
-```
->>>>>>> 9fc99a2 (changed some constants files)
+``
