@@ -45,7 +45,7 @@ Before we run the project, make sure that you are having MongoDB in your local s
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/sethusaim/Sensor-Fault-Detection.git
+git clone https://github.com/Sharaykaka/sensor-fault-detection.git
 ```
 
 ### Step 2- Create a conda environment after opening the repository
@@ -111,17 +111,20 @@ To run the project  first execute the below commmand.
 MONGO DB URL: 
 ```
 mongodb+srv://avnish:XglZZ9OkjjUw74pZ@ineuron-ai-projects.7eh1w4s.mongodb.net/admin?authSource=admin&replicaSet=atlas-okvkrd-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
+
+mongosh "mongodb+srv://sensor.ohhpue9.mongodb.net/myFirstDatabase" --apiVersion 1 --username sensor
+
 ```
 windows user
 
 ```
-MONGO_DB_URL=mongodb+srv://avnish:XglZZ9OkjjUw74pZ@ineuron-ai-projects.7eh1w4s.mongodb.net/admin?authSource=admin&replicaSet=atlas-okvkrd-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
+MONGO_DB_URL=mongosh "mongodb+srv://sensor.ohhpue9.mongodb.net/myFirstDatabase" --apiVersion 1 --username sensor
 ```
 
 Linux user
 
 ```
-export MONGO_DB_URL=mongodb+srv://avnish:XglZZ9OkjjUw74pZ@ineuron-ai-projects.7eh1w4s.mongodb.net/admin?authSource=admin&replicaSet=atlas-okvkrd-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
+export mongodb+srv://sensor:<password>@sensor.ohhpue9.mongodb.net/?retryWrites=true&w=majority
 ```
 
 then run 
